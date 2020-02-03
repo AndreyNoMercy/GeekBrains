@@ -1,0 +1,7 @@
+mysqldump -u root -p exampe > example.sql
+"password"
+ls -la
+mysql
+CREATE DATABASE sample;
+\q
+mysql sample < example.sql

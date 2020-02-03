@@ -1,0 +1,2 @@
+mysqldump -u root -p mysql help_keyword --where="true limit 100" > help_keyword100.sql
+*password*

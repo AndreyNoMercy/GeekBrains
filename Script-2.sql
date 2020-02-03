@@ -1,0 +1,7 @@
+DROP DATABASE IF EXISTS example;
+CREATE DATABASE example;
+use example;
+CREATE TABLE users (
+id SERIAL,
+name VARCHAR(255) NOT NULL
+);
